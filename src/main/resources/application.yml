@@ -5,7 +5,7 @@ spring:
     datasource:
         url: jdbc:postgresql://localhost:5432/joro?currentSchema=inventory
         username: inventory_app_usr
-        password: prayer&
+        password: ********
     devtools:
         restart:
             poll-interval: 2s
