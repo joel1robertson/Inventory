@@ -1,0 +1,10 @@
+/*
+ * list-field.css
+ */
+
+.labeled-panel {
+    box-sizing: border-box;
+    padding: var(--lumo-space-m);
+    border-radius: var(--lumo-border-radius-l);
+    background-color: var(--lumo-contrast-10pct);
+}

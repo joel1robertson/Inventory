@@ -1,0 +1,57 @@
+/*
+ * grid-field.css
+ */
+
+/*
+.grid-field[readonly][focused][focus-ring][has-label][has-value][invalid][has-error-message][theme="error"] {
+*/
+
+
+.grid-field, .grid-field > * {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+
+.grid-field {
+    padding: var(--lumo-space-xs);
+}
+
+.grid-field[has-label] {
+    padding-top: var(--lumo-space-m);
+}
+
+.grid-field [part="label"] {
+    color: var(--lumo-body-text-color);
+    font-size: var(--lumo-font-size-s);
+    font-family: var(--lumo-font-family);
+    /*
+    margin-left: calc(var(--lumo-border-radius-m) / 4);
+    */
+    position: relative;
+    line-height: 1;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: color 0.2s;
+}
+
+.grid-field [part="button"] {
+    align-self: flex-start;
+    font-size: var(--lumo-font-size-s);
+    height: fit-content;
+}
+
+.grid-field [part="input"] {
+    border-radius: var(--lumo-border-radius-m);
+    background-color: var(--lumo-contrast-10pct);
+    padding: var(--lumo-space-m);
+}
+
+
+.grid-field [part="input"][readonly] {
+    border: 1px dashed var(--lumo-contrast-30pct);
+    background-color: transparent;
+}
