@@ -23,7 +23,7 @@ public class JpaItemService implements ItemService {
 //    @Override
 //    public List<Item> fetchAll() {
 //        var sortedByName = Sort.sort(ItemSummaryProjection.class).by(ItemSummaryProjection::getName);
-//        return MapperUtil.map(repository.findAll(sortedByName), ItemMap::map);
+//        return MapperUtil.map(repository.findAll(sortedByName), ItemMapper::map);
 //    }
     @Override
     public List<Item> fetchAll() {

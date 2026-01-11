@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.0.2</version>
+        <version>3.5.9</version>
     </parent>
 
     <groupId>org.joro</groupId>
@@ -25,10 +25,10 @@
     </modules>
 
     <properties>
-        <java.version>17</java.version>
-        <vaadin.version>24.1.0</vaadin.version>
-        <selenium.version>4.8.1</selenium.version>
-        <lombok.version>1.18.26</lombok.version>
+        <java.version>21</java.version>
+        <vaadin.version>24.9.8</vaadin.version>
+        <selenium.version>4.39.0</selenium.version>
+        <lombok.version>1.18.42</lombok.version>
     </properties>
 
     <repositories>
